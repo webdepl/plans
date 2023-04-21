@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;800&display=swap");
+html body {
+  user-select: none;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  html body {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  html body h1 {
+    margin-top: 50px;
+  }
+  html body .container {
+    display: flex;
+    flex-direction: column;
+  }
+  html body .container .planCard {
+    width: 40vmin;
+    height: 70vmin;
+  }
+}
+html body .title {
+  font-family: "Vazirmatn";
+  font-weight: 800;
+}
+html body .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+html body .planCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 15px;
+  width: 30vmin;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  height: 40vmin;
+}
+html body .planCard span {
+  margin-bottom: 20px;
+  direction: rtl;
+  font-family: "Vazirmatn";
+  font-weight: 800;
+}
+html body .planCard .badge {
+  font-family: "Vazirmatn";
+  font-weight: 800;
+  background-image: linear-gradient(rgb(255, 44, 44), rgb(255, 108, 108));
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+html body .planCard h2 {
+  font-family: "Vazirmatn";
+}
+html body .planCard .stype img {
+  aspect-ratio: 1;
+  width: 50px;
+  border-radius: 10px;
+}
+html body .curr {
+  margin-bottom: 50px;
+  font-family: "Vazirmatn";
+  font-weight: 800;
+}
